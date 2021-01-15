@@ -39,7 +39,7 @@ create(data); //Create Record
 
 merge(data); //Update Record
 
-delete id; //Remove Records
+delete(id); //Remove Records
 
 save(); //  To save changes
 ```
