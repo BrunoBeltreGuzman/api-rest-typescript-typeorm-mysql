@@ -1,0 +1,15 @@
+npm install   
+
+Scripts:
+Note: run scripts: npm tun "scripts"
+
+"test": "echo \"Error: no test specified\" && exit 1",
+
+"tst": "tsc",
+
+"build": "tsc",
+
+"dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+
+"start": "node dist/index.js"
+       
